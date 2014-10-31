@@ -12,7 +12,7 @@
 
 class Cbu
 {
-	public static function validar($cbu)
+	public static function isValid($cbu)
 	{
 		// Estrictamente sólo 22 números
 		if (!preg_match('/[0-9]{22}/', $cbu))

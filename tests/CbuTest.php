@@ -12,12 +12,12 @@ class CbuTest extends PHPUnit_Framework_TestCase
 {
     protected $person = null;
 
-    public function	testValidar()
+    public function	testisValid()
 	{
-        $this->assertEquals(false, Cbu::validar('111111111'));
-        $this->assertEquals(false, Cbu::validar('AAAAA0000'));
-        $this->assertEquals(false, Cbu::validar('0720262188000036092117'));
-        $this->assertEquals(true,  Cbu::validar('0720262188000036092118'));
+        $this->assertEquals(false, Cbu::isValid('111111111'));
+        $this->assertEquals(false, Cbu::isValid('AAAAA0000'));
+        $this->assertEquals(false, Cbu::isValid('0720262188000036092117'));
+        $this->assertEquals(true,  Cbu::isValid('0720262188000036092118'));
 	}
 	
 }

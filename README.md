@@ -33,7 +33,7 @@ Agrega a tu archivo composer.json:
 ## Ejemplo
 
 ```php
-	if (Cbu::validar('1111111111111'))
+	if (Cbu::isValid('1111111111111'))
 		echo 'CBU correcto';
 	else
 		echo 'CBU incorrecto';
