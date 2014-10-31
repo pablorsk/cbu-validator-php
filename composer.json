@@ -1,0 +1,25 @@
+{
+    "name": "pablorsk/cbu-validator-php",
+    "type": "library",
+    "description": "Validar CBU Bancos Argentina",
+    "keywords": ["cbu", "argentina", "bancos"],
+    "homepage": "https://github.com/pablorsk/cbu-validator-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CBU Validator"
+        },
+        {
+            "name": "Pablo Reyes",
+            "email": "pablo@srtk.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
