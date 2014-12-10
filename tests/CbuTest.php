@@ -20,4 +20,9 @@ class CbuTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(true,  Cbu::isValid('0720262188000036092118'));
 	}
 	
+    public function	testBankName()
+	{
+        $this->assertEquals('BANCO SANTANDER RIO S.A.', Cbu::getBankName('0720321188000033530000'));
+        $this->assertEquals('', Cbu::getBankName('0000321188000033530718'));
+	}	
 }

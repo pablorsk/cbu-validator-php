@@ -56,4 +56,26 @@ class Cbu
 		}
 		return (10 - $suma % 10) % 10;
 	}
+	
+	/**
+	 * @param string $cbu
+	 * @return string
+	 */
+	public function getBankId($cbu)
+	{
+		return substr($cbu, 0, 3);
+	}
+	
+	/**
+	 * @param string $cbu_or_id
+	 * @return string
+	 */
+	public function getBankName($cbu_or_id)
+	{
+		include_once '../resources/banksarray.inc.php';
+		$id = self::getBankId($cbu_or_id);
+		if (!isset($banksarray[$id]))
+			return '';
+		return $banksarray[$id];
+	}
 }
