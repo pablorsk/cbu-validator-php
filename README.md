@@ -37,6 +37,9 @@ Agrega a tu archivo composer.json:
 		echo 'CBU correcto';
 	else
 		echo 'CBU incorrecto';
+
+	// print "BANCO SANTANDER RIO S.A."
+	echo Cbu::getBankName('0720321188000033530000');
 ```
 
 ## License
