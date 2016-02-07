@@ -44,7 +44,7 @@ class Cbu
 	 * @param integer $pos_final 
 	 * @return integer digito verificador de la cadena $numero
 	 */
-	private function getDigitoVerificador($numero, $pos_inicial, $pos_final)
+	private static function getDigitoVerificador($numero, $pos_inicial, $pos_final)
 	{
 		$ponderador = array(3,1,7,9);
 		$suma = 0;
