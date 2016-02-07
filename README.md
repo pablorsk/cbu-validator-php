@@ -7,27 +7,10 @@ Esta es una libería PHP para validar los códigos bancarios uniformes (CBU) uti
 
 ## Instalación
 
-### Composer
-
-#### Instalar Composer
-
-```bash
-curl -sS https://getcomposer.org/installer | php
-```
-
-#### Agregar CBU Validator via Composer
-
-Agrega a tu archivo composer.json:
+Vía Composer
 
 ```javascript
-{
-    ...
-    "require": {
-        ...
-        "pablorsk/cbu-validator-php": "dev-master"
-    }
-    ...
-}
+composer require pablorsk/cbu-validator-php
 ```
 
 ## Ejemplo

@@ -72,7 +72,7 @@ class Cbu
 	 */
 	public static function getBankName($cbu_or_id)
 	{
-		include_once 'banksarray.inc.php';
+		include __DIR__.'/banksarray.inc.php';
 		$id = self::getBankId($cbu_or_id);
 		if (!isset($banksarray[$id]))
 			return '';
