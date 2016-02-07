@@ -17,12 +17,14 @@ class CbuTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(false, Cbu::isValid('111111111'));
         $this->assertEquals(false, Cbu::isValid('AAAAA0000'));
         $this->assertEquals(false, Cbu::isValid('0720262188000036092117'));
+        $this->assertEquals(true,  Cbu::isValid('2850396540094708965758'));
         $this->assertEquals(true,  Cbu::isValid('0720262188000036092118'));
 	}
 	
     public function	testBankName()
 	{
-        $this->assertEquals('BANCO SANTANDER RIO S.A.', Cbu::getBankName('0720321188000033530000'));
+        $this->assertEquals('Banco Santander Rio S.A.', Cbu::getBankName('0720321188000033530000'));
+        $this->assertEquals('Banco Santander Rio S.A.', Cbu::getBankName('0720321188000033530000'));
         $this->assertEquals('', Cbu::getBankName('0000321188000033530718'));
 	}	
 }
