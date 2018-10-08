@@ -69,6 +69,7 @@
         '339' => 'RCI Banque',
         '340' => 'Bacs Banco De Credito Y Securitizacion S.A.',
         '341' => 'Banco Masventas S.A.',
+        '384' => 'Wilobank',
         '386' => 'Nuevo Banco De Entre Rios S.A.',
         '388' => 'Nuevo Banco Bisel S.A.',
         '389' => 'Banco Columbia S.A.'
