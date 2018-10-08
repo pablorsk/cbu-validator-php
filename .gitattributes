@@ -1,0 +1,13 @@
+* text=auto
+*.css linguist-vendored
+*.scss linguist-vendored
+*.js linguist-vendored
+*.svg binary
+*.pdf binary
+CHANGELOG.md export-ignore
+package-lock.json -diff
+yarn.lock -diff
+composer.lock -diff
+
+# this project
+public/bower_components text
