@@ -28,7 +28,7 @@
         '093' => 'Banco De La Pampa Sociedad De Economía Mixta',
         '094' => 'Banco De Corrientes S.A.',
         '097' => 'Banco Provincia Del Neuquén S.A.',
-        '130' => 'Brubank',
+        '143' => 'Brubank',
         '147' => 'Banco B. I. Creditanstalt S.A.',
         '150' => 'HSBC Bank Argentina S.A.',
         '165' => 'J P Morgan Chase Bank, National Association (Sucursal Buenos Aires)',
