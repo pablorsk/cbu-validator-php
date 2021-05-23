@@ -1,6 +1,10 @@
 Librería PHP para validar CBU (Argentina)
 =========================================
 
+
+⚠️ PLEASE USE https://github.com/reyesoft/php-bank-accounts ⚠️
+
+
 Esta es una libería PHP para validar los códigos bancarios uniformes (CBU) utilizados para las cuentas bancarias de Argentina.
 
 -----------
